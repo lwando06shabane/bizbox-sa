@@ -12,7 +12,7 @@
     <application
         android:label="bizbox-sa"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@android:mipmap/sym_def_app_icon">
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -25,7 +25,7 @@
               android:name="io.flutter.embedding.android.NormalTheme"
               android:resource="@android:style/Theme.Light.NoTitleBar"
               />
-            <intent-filter android:autoVerify="true">
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
