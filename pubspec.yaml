@@ -1,0 +1,24 @@
+name: bizbox_sa
+description: BizBox SA - One App Any Business
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.2.2
+  sqflite: ^2.3.2
+  path: ^1.9.0
+  path_provider: ^2.1.2
+  image_picker: ^1.0.7
+  url_launcher: ^6.2.5
+  intl: ^0.19.0
+  in_app_purchase: ^3.2.0
+  in_app_purchase_android: ^0.3.0+18
+
+flutter:
+  uses-material-design: true
