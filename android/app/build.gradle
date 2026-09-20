@@ -22,8 +22,8 @@ android {
         applicationId "com.example.bizbox_sa"
         minSdk 23
         targetSdk 36
-        versionCode flutterVersionCode.toInteger()
-        versionName flutterVersionName
+        versionCode flutter.versionCode.toInteger()
+        versionName flutter.versionName
     }
 
     buildTypes {
